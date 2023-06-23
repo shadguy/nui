@@ -83,7 +83,7 @@ NWN:EE >= 8193.35
 
 *** 0.4.0 ***
 - Breaking Change -> NWN 8193.35 is now the minimum requried game version.
-- Add automatic handling for NUI_Initialize().  The only call required during the `OnModuleLoad` event is not `NUI_HandleEvents()`.
+- Add automatic handling for NUI_Initialize().  The only call required during the `OnModuleLoad` event is now `NUI_HandleEvents()`.
 - Move `sQuery` and `sql` global variables into local scope to prevent conflict with custom user forms.
 - Add `NUI_DumpEventData()` to allow event data to be dumped through `NUI_Debug()` as defined in `nui_c_config.nss`.
 - Modify `NUI_SetResref()` to automatically assign image resrefs for image buttons for future growth.
